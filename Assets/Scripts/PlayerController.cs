@@ -7,13 +7,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Rigidbody2D playerRB;
     [SerializeField] float moveSpeedFactor = 1;
     [SerializeField] float jumpHeight;
-
+    bool touchingGround = false;
     void Update()
     {
         playerRB.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeedFactor, playerRB.velocity.y);
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(touchingGround == true && Input.GetKeyDown(KeyCode.Space))
         {
             playerRB.AddForce(new Vector2(playerRB.velocity.x, jumpHeight));
+            touchingGround = false;
         }
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        touchingGround = true;
     }
 }
