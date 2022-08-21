@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 12989f70ed05cfb478160349bc9888a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -138,6 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tree: {fileID: 4660038607151320085, guid: 1512d6249f8a0c04983a69cd6306e977, type: 3}
+  leaves: {fileID: 7403292950088512794, guid: 61a0c06e34026264daf30c6aba4856aa, type: 3}
 --- !u!61 &4376536252133661285
 BoxCollider2D:
   m_ObjectHideFlags: 0
