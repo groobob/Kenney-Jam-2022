@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 1820929444}
   - component: {fileID: 1820929443}
   - component: {fileID: 1820929445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -733,7 +733,7 @@ GameObject:
   - component: {fileID: 1867675129}
   - component: {fileID: 1867675130}
   - component: {fileID: 1867675132}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -857,7 +857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 519420031}
   bullet: {fileID: 8379885678938514788, guid: 8d745ed2bc7cb9f4fb79cca6b78aa48c, type: 3}
-  bulletSpeedFactor: 3
+  bulletSpeedFactor: 3.5
   bulletCount: 3
 --- !u!70 &1867675131
 CapsuleCollider2D:

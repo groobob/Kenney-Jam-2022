@@ -21,4 +21,8 @@ public class PlayerController : MonoBehaviour
     {
         touchingGround = true;
     }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        touchingGround = false;
+    }
 }

@@ -8,7 +8,6 @@ public class BulletBehaviour : MonoBehaviour
     bool nearGround = false;
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(nearGround);
         if(collision.gameObject.tag == "Ground" && nearGround == true)
         {
             Instantiate(tree, collision.contacts[0].point, Quaternion.identity);
