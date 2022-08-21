@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
         playerRB.velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeedFactor, playerRB.velocity.y);
         if(touchingGround == true && Input.GetKeyDown(KeyCode.Space))
         {
-            playerRB.AddForce(new Vector2(playerRB.velocity.x, jumpHeight));
+            playerRB.AddForce(new Vector2(playerRB.velocity.x, jumpHeight * 100));
             touchingGround = false;
         }
     }
