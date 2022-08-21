@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8503204770510991097}
   - component: {fileID: 7993460305339462895}
   - component: {fileID: 1445724156740029224}
+  - component: {fileID: 8228386531359574691}
   m_Layer: 7
   m_Name: GrowthDestroyBullet
   m_TagString: Untagged
@@ -123,3 +124,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.185
+--- !u!114 &8228386531359574691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5399298856749306898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950d95b18f581d043a94e3bd1830d82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
